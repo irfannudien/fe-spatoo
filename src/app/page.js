@@ -1,4 +1,5 @@
 import Brand from "@/components/landing/Brand";
+import Category from "@/components/landing/Category";
 import Hero from "@/components/landing/Hero";
 
 export default function Home() {
@@ -9,6 +10,9 @@ export default function Home() {
       </section>
       <section>
         <Brand />
+      </section>
+      <section>
+        <Category />
       </section>
     </>
     // <main className="flex flex-col items-center justify-center px-4 py-20">

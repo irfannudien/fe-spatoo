@@ -44,7 +44,7 @@ export default function Navbar() {
           <button className="flex items-center justify-end cursor-pointer">
             <IoBagHandleOutline size={20} />
           </button>
-          <button className="bg-orange-400 p-2 rounded-full hover:bg-orange-500 transition-colors duration-200 cursor-pointer">
+          <button className="bg-orange-400 p-2 rounded-full hover:bg-orange-500 transition-colors duration-500 cursor-pointer">
             <FaRegUser />
           </button>
         </div>
