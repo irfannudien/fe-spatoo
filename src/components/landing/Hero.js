@@ -1,6 +1,4 @@
-// import { bgNike } from "@/assets/background";
 import { background } from "@/lib/images";
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -8,8 +6,6 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-between px-8 md:px-20 bg-black bg-cover bg-center"
       style={{ backgroundImage: `url(${background.home})` }}
     >
-      {/* <div className="absolute inset-0 bg-[url('/assets/bg-nike2.jpg')] bg-cover bg-center z-0"></div> */}
-
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20"></div>
 
       <div className="relative z-10 flex flex-col md:flex-row items-center self-end justify-between w-full py-40">

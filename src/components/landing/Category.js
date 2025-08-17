@@ -1,5 +1,4 @@
-// import { bgCat } from "@/assets/background";
-import { background, category } from "@/lib/images";
+import { background } from "@/lib/images";
 
 export default function Category() {
   const categories = [
@@ -14,9 +13,10 @@ export default function Category() {
       style={{ backgroundImage: `url(${background.category})` }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/80 backdrop-blur-xs" />
+
       <div className="relative flex flex-col items-center justify-center gap-6">
         <div className="w-full flex">
-          <h2 className="text-2xl font-montserrat text-white tracking-wider">
+          <h2 className="text-2xl font-montserrat uppercase text-white tracking-wider">
             Category
           </h2>
         </div>
@@ -32,7 +32,8 @@ export default function Category() {
                 alt={cat.name}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-all duration-500"></div>
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/40 group-hover:bg-black/40 transition-all duration-500"></div>
 
               <div className="absolute bottom-6 left-6 z-20 flex flex-col gap-2">
                 <h3 className="text-xl font-quicksand text-white drop-shadow-lg">

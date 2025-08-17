@@ -7,25 +7,25 @@ export default function Navbar() {
   return (
     <nav className="bg-transparent text-white fixed w-screen top-0 z-50">
       <div className="container mx-auto flex items-center justify-between p-4 w-full">
-        <div className="flex justify-start w-3/5 font-montserrat">
-          <ul className="flex space-x-6 text-lg">
+        <div className="flex justify-start w-3/5 font-montserrat tracking-widest text-sm">
+          <ul className="flex space-x-6">
             <li>
-              <Link href="/" className="hover:text-orange-400">
+              <Link href="/" className="hover:text-orange-500">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/men" className="hover:text-orange-400">
+              <Link href="/men" className="hover:text-orange-500">
                 Men
               </Link>
             </li>
             <li>
-              <Link href="/women" className="hover:text-orange-400">
+              <Link href="/women" className="hover:text-orange-500">
                 Women
               </Link>
             </li>
             <li>
-              <Link href="/kids" className="hover:text-orange-400">
+              <Link href="/kids" className="hover:text-orange-500">
                 Kids
               </Link>
             </li>
